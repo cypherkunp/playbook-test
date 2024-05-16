@@ -1,0 +1,21 @@
+{
+  "name": "playground-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "stest": "playwright test redirect.spec.ts",
+    "test": "playwright test",
+    "test-headed": "playwright test --headed",
+    "test-project": "npx playwright test --project webkit",
+    "test-ui-mode": "playwright test --ui",
+    "codegen": "playwright codegen"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12"
+  }
+}
